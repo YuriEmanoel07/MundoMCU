@@ -1,0 +1,12 @@
+
+.img-banner {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.img-card {
+  height: 150px;
+  object-fit: cover;
+}
