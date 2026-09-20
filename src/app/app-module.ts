@@ -6,9 +6,11 @@ import { App } from './app';
 import { Header } from './template/header/header';
 import { Footer } from './template/footer/footer';
 import { Home } from './components/home/home';
+import { Mcu } from './components/filmes/mcu/mcu';
+import { Personagens } from './components/filmes/personagens/personagens';
 
 @NgModule({
-  declarations: [App, Header, Footer, Home],
+  declarations: [App, Header, Footer, Home, Mcu, Personagens],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
